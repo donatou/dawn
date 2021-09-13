@@ -1,0 +1,14 @@
+development:
+  password: shptka_c2486621f4706d75cc1703bced327c7e
+  theme_id: ""
+  store: saasil-nah.myshopify.com
+  ignore_files:
+  - config/settings_data.json
+  - locales/*.json
+production:
+  password: shptka_c2486621f4706d75cc1703bced327c7e
+  theme_id: ""
+  store: saasil-nah.myshopify.com
+  ignore_files:
+  - config/settings_data.json
+  - locales/*.json
