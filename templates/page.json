@@ -1,10 +1,69 @@
 {
   "sections": {
     "main": {
-      "type": "main-page"
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "16308892239a4b89e3": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1630889223343b9855-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Test de título de otra sección",
+            "heading_size": "h2"
+          }
+        },
+        "1630889223343b9855-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Quibusdam<\/strong> repellendus sed incidunt et sapiente earum. Temporibus qui voluptate ut. Dolorem voluptatum molestias et reiciendis in. Porro in nam cum enim culpa et. Vitae omnis ad rerum ut mollitia aut fuga.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1630889223343b9855-0",
+        "1630889223343b9855-1"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true
+      }
+    },
+    "16308891947ce6b3e6": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1630889194f1764b5f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Test de título"
+          }
+        },
+        "1630889194f1764b5f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Omnis omnis i<\/strong>mpedit dolor vel omnis in maiores eligendi. In molestiae accusamus reiciendis et blanditiis suscipit ex ut. Rem possimus rerum saepe molestiae similique porro et.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1630889194f1764b5f-0",
+        "1630889194f1764b5f-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/efren-castillo-9h9bzwTzZHc-unsplash.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16308892239a4b89e3",
+    "16308891947ce6b3e6"
   ]
 }

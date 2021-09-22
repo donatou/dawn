@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "gallery": {
+      "type": "gallery-page",
+      "blocks": {
+        "751bbb88-9cb2-47db-ab4b-2276826fa234": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/efren-castillo-9h9bzwTzZHc-unsplash.jpg"
+          }
+        },
+        "05230ccd-fb41-4784-88eb-81180a82d3bb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jay-castor-7AcMUSYRZpU-unsplash.jpg"
+          }
+        },
+        "1c56842c-47d2-4d00-81aa-7080b20422e8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sun-setting-over-ocean.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "751bbb88-9cb2-47db-ab4b-2276826fa234",
+        "05230ccd-fb41-4784-88eb-81180a82d3bb",
+        "1c56842c-47d2-4d00-81aa-7080b20422e8"
+      ],
+      "settings": {
+        "gallerytitle": "Galería"
+      }
+    }
+  },
+  "order": [
+    "gallery"
+  ]
+}

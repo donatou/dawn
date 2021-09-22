@@ -2,105 +2,128 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "settings": {
-        "desktop_text_box_position": "flex-end"
-      },
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand"
+            "heading": "Welcome to Sáasil-Nah!",
+            "heading_size": "medium"
+          }
+        },
+        "a446fa15-b1ad-49bd-aeff-7ad65686764e": {
+          "type": "text",
+          "settings": {
+            "text": "Sáasil-Nah is an ancient Mayan word which means “The House of Light”. Here, in Sáasil-Nah, we are committed to offer you the highest quality of treatments and courses in Kundalini Yoga, Ayurveda, Massage, and Healing."
           }
         },
         "button": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Shop all",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_label_2": ""
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading",
+        "a446fa15-b1ad-49bd-aeff-7ad65686764e",
         "button"
-      ]
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/jay-castor-7AcMUSYRZpU-unsplash.jpg",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 30,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
-        "heading": {
-          "type": "heading"
+        "aa68eb90-7c6a-4070-813c-bd0810392416": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our primary objective",
+            "heading_size": "h2"
+          }
         },
         "text": {
-          "type": "text"
-        },
-        "button": {
-          "type": "button"
+          "type": "text",
+          "settings": {
+            "text": "<p>Our primary objective is to provide you with the knowledge for successfully combine the techniques of Kundalini Yoga and Ayurveda in an integral form. Kundalini Yoga is suitable for all persons, old, young, stiff and flexible. This genuine form of yoga comes from the teachings of Yogi Bhajan. You will learn about the <em>dosha<\/em> (element) predominant in your body according to Ayurvedic philosophy, and to balance your dosha through food, drinks, spices, aromas, and medicinal plants.<\/p>"
+          }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
-      ]
-    },
-    "featured_products": {
-      "type": "featured-collection",
+        "aa68eb90-7c6a-4070-813c-bd0810392416",
+        "text"
+      ],
       "settings": {
-        "title": "Featured products",
-        "collection": "all",
-        "image_ratio": "square"
+        "color_scheme": "background-1",
+        "full_width": true
       }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "video": {
-          "type": "video"
-        },
-        "product": {
-            "type": "product"
-        },
-        "collection": {
-          "type": "collection"
-        }
-      },
-      "block_order": [
-        "video",
-        "product",
-        "collection"
-      ]
-    },
-    "video": {
-      "type": "video"
     },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
         "column1": {
-          "type": "column"
+          "type": "column",
+          "settings": {
+            "title": "Kundalini Yoga",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<br\/><br\/><a href=\"#\" title=\"#\">Know more<\/a><\/p>"
+          }
         },
         "column2": {
-          "type": "column"
+          "type": "column",
+          "settings": {
+            "title": "Ayurveda",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
         },
         "column3": {
-          "type": "column"
+          "type": "column",
+          "settings": {
+            "title": "Massage",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "924edadd-b4ee-409c-a09a-f05ff2acebd1": {
+          "type": "column",
+          "settings": {
+            "title": "Healing",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
         }
       },
       "block_order": [
         "column1",
         "column2",
-        "column3"
-      ]
+        "column3",
+        "924edadd-b4ee-409c-a09a-f05ff2acebd1"
+      ],
+      "settings": {
+        "title": "SÁASIL – NAH",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
-    "featured_products",
-    "collage",
-    "video",
     "multi_column"
   ]
 }
