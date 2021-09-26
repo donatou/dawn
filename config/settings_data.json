@@ -17,6 +17,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Shop opening soon",
               "color_scheme": "inverse",
@@ -34,11 +35,11 @@
         "type": "header",
         "settings": {
           "logo": "shopify:\/\/shop_images\/logo-saasil-horizontal_V2.png",
-          "logo_width": 180,
+          "logo_width": 140,
           "logo_position": "middle-left",
           "menu": "saasil-menu-reducido",
-          "show_line_separator": false,
-          "enable_sticky_header": false
+          "show_line_separator": true,
+          "enable_sticky_header": true
         }
       },
       "footer": {
@@ -78,7 +79,41 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "163270025991b54533": {
+        "type": "shopify:\/\/apps\/etranslate\/blocks\/embedded-selector\/35c05b0e-4f05-4fc9-adc7-77b6ccb6b2ca",
+        "disabled": true,
+        "settings": {
+          "t_padding": 0,
+          "l_padding": 0,
+          "background_color": "#FFFFFF",
+          "background_opacity": 1,
+          "font_color": "#000000",
+          "font_size": 14,
+          "font_family": "none",
+          "css_code": ""
+        }
+      },
+      "1632700259e9405e5d": {
+        "type": "shopify:\/\/apps\/etranslate\/blocks\/floating-selector\/35c05b0e-4f05-4fc9-adc7-77b6ccb6b2ca",
+        "disabled": true,
+        "settings": {
+          "horizontal": 10,
+          "vertical": 10,
+          "background_color": "rgba(255,255,255,1)",
+          "font_color": "#000000",
+          "selector_width": 24,
+          "background_opacity": 100,
+          "border_width": 1,
+          "position_lr": "right",
+          "position_tb": "fixed_bottom",
+          "flags_type": "rectangle_flag",
+          "labels_type": "language_code",
+          "css_code": ""
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
