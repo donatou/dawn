@@ -279,5 +279,24 @@
         "default": true
       }
     ]
+  },
+  {
+    "name": "Shop",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Shop"
+      },
+      {
+        "type": "paragraph",
+        "content": "If checked, shop will be live (cart, user page, etc.)."
+      },
+      {
+        "type": "checkbox",
+        "id": "shop_enabled",
+        "label": "Enable shop",
+        "default": false
+      }
+    ]
   }
 ]
