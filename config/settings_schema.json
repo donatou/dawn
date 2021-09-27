@@ -289,7 +289,7 @@
       },
       {
         "type": "paragraph",
-        "content": "If checked, shop will be live (cart, user page, etc.)."
+        "content": "If checked, cart will be shown."
       },
       {
         "type": "checkbox",
