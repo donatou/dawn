@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Välkommen till Sáasil-Nah!",
+            "heading": "Välkommen till Saasil-Nah!",
             "heading_size": "large"
           }
         }
@@ -31,14 +31,14 @@
         "462e3527-0a80-4060-8297-267375d4938f": {
           "type": "heading",
           "settings": {
-            "heading": "Sáasil-Nah",
+            "heading": "Saasil-Nah",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Sáasil-Nah<\/strong> är ett mycket gammalt ord som ursprungligen kommer från Mayakulturen och betyder <strong>“Ljusets hus”<\/strong>. Vi ser det som vår uppgift att inom Sáasil-Nah kunna erbjuda dig behandlingar och kurser i Kundalini Yoga, Ayurveda, Massage, och Healing av högsta kvalitet.<\/p>"
+            "text": "<p><strong>Saasil-Nah<\/strong> är ett mycket gammalt ord som ursprungligen kommer från Mayakulturen och betyder <strong>“Ljusets hus”<\/strong>. Vi ser det som vår uppgift att inom Saasil-Nah kunna erbjuda dig behandlingar och kurser i Kundalini Yoga, Ayurveda, Massage, och Healing av högsta kvalitet.<\/p>"
           }
         }
       },
@@ -90,10 +90,18 @@
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/panchakarma.jpg",
+            "title": "Panchakarma",
+            "text": "<p>Den centrala elden (jatharagni) styr matsmältning och assimilering av mat, när agni är stark och hälsosam kan en person äta vadsomhelst och systemet kan smälta det assimilera, och suga upp, sedan eliminera gifter.<br\/><br\/><a href=\"\/pages\/panchakarma\" title=\"Panchakarma\">Lära dig mer...<\/a><\/p>"
+          }
+        },
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sun-setting-over-ocean.jpg",
+            "image": "shopify:\/\/shop_images\/kundalini.jpg",
             "title": "Kundalini Yoga",
             "text": "<p>Kundalini yoga är en lära, konst och en teknik som gör att vi kan komma åt och utnyttja vår egen kreativitet. <\/p><p><br\/><a href=\"\/pages\/kundalini-yoga\" title=\"Kundalini Yoga\">Lära dig mer...<\/a><\/p>"
           }
@@ -101,29 +109,24 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Ayurveda",
-            "text": "<p>Ayurveda, kunskap om livet, är den holistiska och alternativa läran från Indien som är mer än fem tusen år gammal.<br\/><br\/><a href=\"\/pages\/ayurveda\" title=\"Ayurveda\">Lära dig mer...<\/a><\/p>"
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Panchakarma",
-            "text": "<p>Den centrala elden (jatharagni) styr matsmältning och assimilering av mat, när agni är stark och hälsosam kan en person äta vadsomhelst och systemet kan smälta det assimilera, och suga upp, sedan eliminera gifter.<br\/><br\/><a href=\"\/pages\/panchakarma\" title=\"Panchakarma\">Lära dig mer...<\/a><\/p>"
+            "image": "shopify:\/\/shop_images\/terapia-3.jpg",
+            "title": "Toltecayotl",
+            "text": "<p>Toltecayotl, den spirituella vägen från uråldriga Mesoamerika* som lär oss skapa frid, jämvikt och balans i livet. Målet är ett mentalt tillstånd där alla vibrationer och energier är heliga, Toltecayotl jobbar med kropp, sinne och själ. <br\/><br\/><a href=\"\/pages\/healing\" title=\"Healing\">Lära dig mer...<\/a><\/p>"
           }
         },
         "924edadd-b4ee-409c-a09a-f05ff2acebd1": {
           "type": "column",
           "settings": {
-            "title": "Ayurvedic Cooking Workshop",
-            "text": "<p>In this course you will learn which is you prakurti or which element predominates in your body according to Ayurvedic philosophy.<br\/><br\/><a href=\"\/pages\/kurser\" title=\"Kurser\">Lära dig mer...<\/a><\/p>"
+            "image": "shopify:\/\/shop_images\/itothermie.jpg",
+            "title": "Itothermie",
+            "text": "<p>Ito-Thermie är en holistik, självläkande och helande metod, som kompletterar traditionell medicinsk behandling, och den påverkar sinne, kropp och själ för att skapa en god hälsa - andlig balans och emotionellt välmående.<br\/><br\/><a href=\"\/pages\/healing\" title=\"Healing\">Lära dig mer...<\/a><\/p>"
           }
         }
       },
       "block_order": [
+        "column3",
         "column1",
         "column2",
-        "column3",
         "924edadd-b4ee-409c-a09a-f05ff2acebd1"
       ],
       "settings": {

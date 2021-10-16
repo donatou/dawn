@@ -3,7 +3,7 @@
   var listenChange = function(element) {
     mediaReplace();
   }
-  const config = { attributeFilter: ["src"] };
+  const config = { attributeFilter: ["src","srcset"] };
   const obsever = new MutationObserver(listenChange);
   function mediaReplace(){
     obsever.disconnect();
